@@ -60,6 +60,10 @@ def compute_euclidean_distance(contact_points, X, Y, Z):
 
     return dists
 
+def add(a, b):
+    return a + b
+def test():
+    assert add(5, 2) == 7
 
 if __name__ == "__main__":
-    pass
+    test()
